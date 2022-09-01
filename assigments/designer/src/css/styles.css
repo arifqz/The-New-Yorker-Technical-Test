@@ -118,6 +118,11 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .flex-item-1 {
     flex: none;
@@ -177,7 +182,8 @@ ul {
     padding: 0;
 }
 li {
-    display: inline;
+    display: inline-block;
+    position: relative;
 }
 
 .background {
@@ -260,6 +266,11 @@ height: 832.49px;
 
 
 }
+.smallhed {
+    line-height: 0px;
+    font-size: x-large;
+}
+}
 .cloud1 {
     z-index: 2;
     position: absolute;
@@ -309,6 +320,47 @@ top: 0px;
     background-size: cover;
 }
 
+.byline_timestamp {
+    padding: 12px 0px 8px;
+gap: 10px;
+
+width: 113px;
+height: 57px;
+}
+.byline {
+    margin: 0px;
+}
+li {
+    width: 42px;
+height: 42px;
+}
+
+.email > .icon{
+position: absolute;
+width: 16.81px;
+height: 10.47px;
+left: calc(50% - 16.81px/2 + 0.4px);
+top: calc(50% - 10.47px/2 + 0.24px);
+}
+
+.twitter > .icon{
+    position: absolute;
+width: 14.94px;
+height: 11.12px;
+left: calc(50% - 14.94px/2 + 0.47px);
+top: calc(50% - 11.12px/2 - 0.44px);
+}
+
+.facebook > .icon {
+    position: absolute;
+width: 5.93px;
+height: 11.97px;
+left: calc(50% - 5.93px/2 - 0.03px);
+top: calc(50% - 11.97px/2 - 0.01px);
+}
+.timestamp {
+    margin: 0px;
+}
 h5 {
     font-family: Irvin-Heading;
     font-size: 12px;
@@ -317,6 +369,7 @@ h5 {
     letter-spacing: 0px;
     text-align: center;
     color: #FFFFFF;
+    margin: 0px;
 }
 
 h1 {
@@ -328,6 +381,8 @@ h1 {
     text-align: center;
     letter-spacing: 1px;
     color: #FFFFFF;
+    margin: 0px;
+    width: 439.79px;
 }
 
 h2 {
@@ -338,6 +393,8 @@ h2 {
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
+    width: 342px;
+    margin: 0px;
 }
 
 h3 {
