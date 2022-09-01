@@ -110,6 +110,7 @@ body {
     position: relative;
     width: 1280px;
     background: #000000;
+    margin: 0px;
 }
 
 .flex-container {
@@ -185,7 +186,7 @@ li {
     height: 1585.57px;
     left: 0px;
     top: 0px;
-
+margin: 0px;
 }
 .opener {
     box-sizing: border-box;
@@ -208,6 +209,7 @@ height: 982px;
     height: 1538.06px;
     left: 0px;
     top: 47.51px;
+    overflow: hidden;
 }
 
 .introBody {
@@ -218,53 +220,72 @@ border: 1.5px solid #FFFFFF;
 padding: 100px;
 gap: 50px;
 }
+.logo {
+    position: absolute;
+width: 175px;
+height: 39.81px;
+left: 553px;
+top: 12px;
+margin: 0px;
+}
 
+.img-logo {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+color: #FFFFFF;
+}
 .light1 {
     position: absolute;
-    width: 1209.67px;
-    height: 1538.06px;
-    left: 70.33px;
-    top: 47.51px;
+    transform: rotate(40deg);
     z-index: 1;
-    background: url("../assets/images/left-light.png");
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    top: -590px;
+    left: 270px;
 }
 
 .light2 {
     position: absolute;
-    width: 1209.67px;
-    height: 1538.06px;
-    left: 1209.67px;
-    top: 47.51px;
+    transform: rotate(-30deg);
     z-index: 1;
-    background: url("../assets/images/left-light.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    top: -493px;
+    right: 300px;
 }
+.clouds {
+position: absolute;
+width: 1261.28px;
+height: 832.49px;
 
+
+}
 .cloud1 {
-    position: absolute;
-    let: 0px;
-    top: 0px;
     z-index: 2;
+    position: absolute;
+    width: 433.23px;
+    height: 280.13px;
+    left: 747.1px;
+    top: 206.9px;
+
 }
 
 .cloud2 {
-    position: absolute;
-    let: 0px;
-    top: 0px;
-    z-index: 2;
+position: absolute;
+width: 944.44px;
+height: 588.79px;
+left: 19.09px;
+top: 192.63px;
+z-index: 2;
 }
 
 .cloud3 {
-    position: absolute;
-    let: 0px;
-    top: 0px;
-    z-index: 2;
+position: absolute;
+width: 591.08px;
+height: 271.11px;
+left: 689.28px;
+top: 754.01px;
+z-index: 2;
 }
 
 .stars {
