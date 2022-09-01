@@ -116,7 +116,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .flex-item-1 {
@@ -151,25 +150,100 @@ body {
 
 .opener-background {
     position: absolute;
-    width: 1280px;
-    height: 1585px;
+    width: 1280.37px;
+    height: 1585.57px;
     left: 0px;
     top: 0px;
+    opacity: 0.9;
     z-index: -10;
+}
+
+.openerDisplay {
+    position: absolute;
+width: 448px;
+height: 581px;
+left: 416px;
+top: 201px;
+padding: 48px 0px 32px;
+gap: 32px;
+border: 1.5px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+ul {
+        list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+
+.background {
+    position: absolute;
+    width: 1280.37px;
+    height: 1585.57px;
+    left: 0px;
+    top: 0px;
+
+}
+.opener {
+    box-sizing: border-box;
+
+width: 1280px;
+height: 982px;
+
+}
+.openerIntro {
+    width: 100%;
+    height: 100%;
+    gap: 120px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.spotlights {
+    position: absolute;
+    width: 1280px;
+    height: 1538.06px;
+    left: 0px;
+    top: 47.51px;
+}
+
+.introBody {
+    width: 968px;
+height: 1668px;
+box-sizing: border-box;
+border: 1.5px solid #FFFFFF;
+padding: 100px;
+gap: 50px;
 }
 
 .light1 {
     position: absolute;
-    let: 0px;
-    top: 0px;
-    z-index: 3;
+    width: 1209.67px;
+    height: 1538.06px;
+    left: 70.33px;
+    top: 47.51px;
+    z-index: 1;
+    background: url("../assets/images/left-light.png");
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .light2 {
     position: absolute;
-    let: 0px;
-    top: 0px;
-    z-index: 3;
+    width: 1209.67px;
+    height: 1538.06px;
+    left: 1209.67px;
+    top: 47.51px;
+    z-index: 1;
+    background: url("../assets/images/left-light.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cloud1 {
@@ -194,9 +268,11 @@ body {
 }
 
 .stars {
-    position: absolute;
-    let: 0px;
-    top: 0px;
+position: absolute;
+width: 1280px;
+height: 1563.69px;
+left: 0.36px;
+top: 0px;
     z-index: 1;
 }
 
@@ -267,7 +343,8 @@ h6 {
 }
 
 h4 {
-
+width: 147px;
+height: 14px;
     font-family: 'Irvin-Heading';
     font-style: normal;
     font-weight: 400;
@@ -287,6 +364,8 @@ article {
     font-size: 28px;
     line-height: 39px;
     color: #FFFFFF;
+width: 768px;
+align-self: stretch;
 
 }
 
