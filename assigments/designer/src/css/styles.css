@@ -105,4 +105,145 @@
 
 body {
     background-image: url("../assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    color: #FFFFFF;
+}*/
+
+.light1 {
+    position: absolute;
+    let: 0px;
+    top: 0px;
+    z-index: 3;
+}
+
+.light2 {
+    position: absolute;
+    let: 0px;
+    top: 0px;
+    z-index: 3;
+}
+
+.cloud1 {
+    position: absolute;
+    let: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.cloud2 {
+    position: absolute;
+    let: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.cloud3 {
+    position: absolute;
+    let: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.stars {
+    position: absolute;
+    let: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+h5 {
+    font-family: Irvin-Heading;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Irvin-Heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'AdobeCaslonPro-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+
+}
+
+h6 {
+    font-family: 'Graphik-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+h4 {
+
+    font-family: 'Irvin-Heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+article {
+    font-family: 'AdobeCaslonPro-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    color: #FFFFFF;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
