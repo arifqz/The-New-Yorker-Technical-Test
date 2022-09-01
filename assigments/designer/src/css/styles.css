@@ -104,23 +104,59 @@
 
 
 body {
-    background-image: url("../assets/images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #000000;
+    padding: 0px 0px 200px;
+    gap: 320px;
+    isolation: isolate;
+    position: relative;
+    width: 1280px;
+    background: #000000;
 }
 
-/*h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span {
-    color: #FFFFFF;
-}*/
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flex-item-1 {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.flex-item-2 {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.flex-item-3 {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.flex-item-4 {
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.flex-item-5 {
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.opener-background {
+    position: absolute;
+    width: 1280px;
+    height: 1585px;
+    left: 0px;
+    top: 0px;
+    z-index: -10;
+}
 
 .light1 {
     position: absolute;
@@ -162,6 +198,18 @@ span {
     let: 0px;
     top: 0px;
     z-index: 1;
+}
+
+.gradient {
+    position: absolute;
+    let: 0.36px;
+    top: 0px;
+    background-image: url("../assets/images/background.jpg");
+    width: 1280px;
+    height: 1563.69px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h5 {
