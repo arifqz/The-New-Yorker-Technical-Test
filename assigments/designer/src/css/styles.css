@@ -118,6 +118,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .flex-container-row {
     display: flex;
     flex-direction: row;
@@ -166,21 +167,23 @@ body {
 
 .openerDisplay {
     position: absolute;
-width: 448px;
-height: 581px;
-left: 416px;
-top: 201px;
-padding: 48px 0px 32px;
-gap: 32px;
-border: 1.5px solid #FFFFFF;
-box-sizing: border-box;
+    width: 448px;
+    height: 581px;
+    left: 416px;
+    top: 201px;
+    padding: 48px 0px 32px;
+    gap: 32px;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
 
 }
+
 ul {
-        list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 li {
     display: inline-block;
     position: relative;
@@ -192,15 +195,15 @@ li {
     height: 1585.57px;
     left: 0px;
     top: 0px;
-margin: 0px;
+    margin: 0px;
 }
+
 .opener {
     box-sizing: border-box;
-
-width: 1280px;
-height: 982px;
-
+    width: 1280px;
+    height: 982px;
 }
+
 .openerIntro {
     width: 100%;
     height: 100%;
@@ -220,30 +223,32 @@ height: 982px;
 
 .introBody {
     width: 968px;
-height: 1668px;
-box-sizing: border-box;
-border: 1.5px solid #FFFFFF;
-padding: 100px;
-gap: 50px;
+    height: 1668px;
+    box-sizing: border-box;
+    border: 1.5px solid #FFFFFF;
+    padding: 100px;
+    gap: 50px;
 }
+
 .logo {
     position: absolute;
-width: 175px;
-height: 39.81px;
-left: 553px;
-top: 12px;
-margin: 0px;
+    width: 175px;
+    height: 39.81px;
+    left: 553px;
+    top: 12px;
+    margin: 0px;
 }
 
 .img-logo {
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
+
 .light1 {
     position: absolute;
     transform: rotate(40deg);
@@ -259,18 +264,19 @@ color: #FFFFFF;
     top: -493px;
     right: 300px;
 }
+
 .clouds {
-position: absolute;
-width: 1261.28px;
-height: 832.49px;
-
-
+    position: absolute;
+    width: 1261.28px;
+    height: 832.49px;
 }
+
 .smallhed {
     line-height: 0px;
     font-size: x-large;
 }
 }
+
 .cloud1 {
     z-index: 2;
     position: absolute;
@@ -282,35 +288,35 @@ height: 832.49px;
 }
 
 .cloud2 {
-position: absolute;
-width: 944.44px;
-height: 588.79px;
-left: 19.09px;
-top: 192.63px;
-z-index: 2;
+    position: absolute;
+    width: 944.44px;
+    height: 588.79px;
+    left: 19.09px;
+    top: 192.63px;
+    z-index: 2;
 }
 
 .cloud3 {
-position: absolute;
-width: 591.08px;
-height: 271.11px;
-left: 689.28px;
-top: 754.01px;
-z-index: 2;
+    position: absolute;
+    width: 591.08px;
+    height: 271.11px;
+    left: 689.28px;
+    top: 754.01px;
+    z-index: 2;
 }
 
 .stars {
-position: absolute;
-width: 1280px;
-height: 1563.69px;
-left: 0.36px;
-top: 0px;
+    position: absolute;
+    width: 1280px;
+    height: 1563.69px;
+    left: 0.36px;
+    top: 0px;
     z-index: 1;
 }
 
 .gradient {
     position: absolute;
-    let: 0.36px;
+    left: 0.36px;
     top: 0px;
     background-image: url("../assets/images/background.jpg");
     width: 1280px;
@@ -322,45 +328,49 @@ top: 0px;
 
 .byline_timestamp {
     padding: 12px 0px 8px;
-gap: 10px;
+    gap: 10px;
 
-width: 113px;
-height: 57px;
+    width: 113px;
+    height: 57px;
 }
+
 .byline {
     margin: 0px;
 }
+
 li {
     width: 42px;
-height: 42px;
+    height: 42px;
 }
 
-.email > .icon{
-position: absolute;
-width: 16.81px;
-height: 10.47px;
-left: calc(50% - 16.81px/2 + 0.4px);
-top: calc(50% - 10.47px/2 + 0.24px);
-}
-
-.twitter > .icon{
+.email>.icon {
     position: absolute;
-width: 14.94px;
-height: 11.12px;
-left: calc(50% - 14.94px/2 + 0.47px);
-top: calc(50% - 11.12px/2 - 0.44px);
+    width: 16.81px;
+    height: 10.47px;
+    left: calc(50% - 16.81px/2 + 0.4px);
+    top: calc(50% - 10.47px/2 + 0.24px);
 }
 
-.facebook > .icon {
+.twitter>.icon {
     position: absolute;
-width: 5.93px;
-height: 11.97px;
-left: calc(50% - 5.93px/2 - 0.03px);
-top: calc(50% - 11.97px/2 - 0.01px);
+    width: 14.94px;
+    height: 11.12px;
+    left: calc(50% - 14.94px/2 + 0.47px);
+    top: calc(50% - 11.12px/2 - 0.44px);
 }
+
+.facebook>.icon {
+    position: absolute;
+    width: 5.93px;
+    height: 11.97px;
+    left: calc(50% - 5.93px/2 - 0.03px);
+    top: calc(50% - 11.97px/2 - 0.01px);
+}
+
 .timestamp {
     margin: 0px;
 }
+
 h5 {
     font-family: Irvin-Heading;
     font-size: 12px;
@@ -421,8 +431,8 @@ h6 {
 }
 
 h4 {
-width: 147px;
-height: 14px;
+    width: 147px;
+    height: 14px;
     font-family: 'Irvin-Heading';
     font-style: normal;
     font-weight: 400;
@@ -442,8 +452,8 @@ article {
     font-size: 28px;
     line-height: 39px;
     color: #FFFFFF;
-width: 768px;
-align-self: stretch;
+    width: 768px;
+    align-self: stretch;
 
 }
 
@@ -452,3 +462,98 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+@media only screen and (max-width: 375px) {
+body {
+    gap: revert;
+    width: 375px;
+
+}
+
+.opener-background {
+    position: absolute;
+    width: 375px;
+    height: 1198px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.9;
+    z-index: -10;
+}
+.background {
+    position: absolute;
+    width: 375px;
+    height: 1061px;
+    left: 0px;
+    top: -1px;
+    margin: 0px;
+}
+.spotlights {
+    position: absolute;
+    width: 375px;
+    height: 1004px;
+    left: 0px;
+    top: 56px;
+    overflow: hidden;
+}
+.clouds {
+    position: absolute;
+    width: 375px;
+    height: 862px;
+    left: 0px;
+    top: 60px;
+}
+
+.gradient {
+    position: absolute;
+    left: 0.11px;
+    top: 0px;
+    background-image: url("../assets/images/background.jpg");
+    width: 374.89px;
+    height: 812px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.opener {
+    box-sizing: border-box;
+    width: 375px;
+    height: 738px;
+    align-self: stretch;
+    z-index: 1;
+
+}
+.openerIntro {
+    width: 375px;
+    height: 100%;
+    gap: revert;
+    padding: 0px;
+    z-index: 1;
+}
+
+.introBody {
+    width: 375px;
+    height: 1146px;
+    box-sizing: revert;
+    border: none;
+    padding: 100px 32px;
+    gap: 32px;
+}
+
+article {
+    font-family: 'AdobeCaslonPro-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 311px;
+    height: 900px;
+    align-self: stretch;
+
+}
+
+}
+
+
+
+
