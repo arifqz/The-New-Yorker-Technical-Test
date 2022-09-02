@@ -343,6 +343,13 @@ li {
     width: 100%;
     mask-image: url(../assets/images/maskstars.png);
     -webkit-mask-image: url(../assets/images/maskstars.png);
+    animation: movemask 5s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movemask {
+  0%   {mask-position: top right;}
+  100% {mask-position: bottom left;}
 }
 
 .starsgold {
