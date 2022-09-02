@@ -15,32 +15,8 @@
 }
 
 @font-face {
-    font-family: Graphik-MediumItalic;
-    src: url("../assets/fonts/Graphik-MediumItalic.woff2") format("woff2"), url("../assets/fonts/Graphik-MediumItalic.woff") format("woff"), url("../assets/fonts/Graphik-MediumItalic.eot") format("eot");
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Graphik-Regular-Web;
-    src: url("../assets/fonts/Graphik-Regular-Web.woff2") format("woff2"), url("../assets/fonts/Graphik-Regular-Web.woff") format("woff"), url("../assets/fonts/Graphik-Regular-Web.eot") format("eot");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: AdobeCaslonPro-Italic;
     src: url("../assets/fonts/AdobeCaslonPro-Italic.woff2") format("woff2"), url("../assets/fonts/AdobeCaslonPro-Italic.woff") format("woff");
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: Graphik-RegularItalic-Web;
-    src: url("../assets/fonts/Graphik-RegularItalic-Web.woff2") format("woff2"), url("../assets/fonts/Graphik-RegularItalic-Web.woff") format("woff"), url("../assets/fonts/Graphik-RegularItalic-Web.eot") format("eot");
     font-weight: 400;
     font-style: italic;
     font-display: swap;
@@ -55,53 +31,12 @@
 }
 
 @font-face {
-    font-family: Irvin-Text;
-    src: url("../assets/fonts/Irvin-Text.woff2") format("woff2"), url("../assets/fonts/Irvin-Text.woff") format("woff") url("../assets/fonts/Irvin-Text.ttf") format("ttf");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: NeutrafaceNewYorkerWeb-SemiBold;
     src: url("../assets/fonts/NeutrafaceNewYorkerWeb-SemiBold.woff2") format("woff2"), url("../assets/fonts/NeutrafaceNewYorkerWeb-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: AdobeCaslonPro-SemiBold;
-    src: url("../assets/fonts/AdobeCaslonPro-SemiBold.woff2") format("woff2"), url("../assets/fonts/AdobeCaslonPro-SemiBold.woff") format("woff");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: AdobeCaslonPro-SemiBoldItalic;
-    src: url("../assets/fonts/AdobeCaslonPro-SemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/AdobeCaslonPro-SemiBoldItalic.woff") format("woff");
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: AdobeCaslonPro-BoldItalic;
-    src: url("../assets/fonts/AdobeCaslonPro-BoldItalic.woff2") format("woff2"), url("../assets/fonts/AdobeCaslonPro-BoldItalic.woff") format("woff");
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: AdobeCaslonPro-Bold;
-    src: url("../assets/fonts/AdobeCaslonPro-Bold.woff2") format("woff2"), url("../assets/fonts/dobeCaslonPro-Bold.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 body {
     padding: 0px 0px 200px;
@@ -175,7 +110,6 @@ body {
     gap: 32px;
     border: 1.5px solid #FFFFFF;
     box-sizing: border-box;
-
 }
 
 ul {
@@ -212,8 +146,6 @@ li {
     padding: 0px;
     z-index: 1;
 }
-
-
 
 .introBody {
     width: 968px;
@@ -304,9 +236,6 @@ li {
     height: 832.49px;
 }
 
-
-
-
 .cloud1 {
     z-index: 2;
     position: absolute;
@@ -363,7 +292,6 @@ li {
         -webkit-mask-position: top right;
         mask-position: top right;
     }
-
     100% {
         -webkit-mask-position: bottom left;
         mask-position: bottom left;
@@ -400,7 +328,7 @@ li {
     height: 57px;
 }
 
-.byline {
+h3.byline {
     margin: 0px;
 }
 
@@ -488,7 +416,6 @@ h3.byline {
     text-align: center;
     letter-spacing: 0.4px;
     color: #FFFFFF;
-
 }
 
 h6.timestamp {
@@ -499,7 +426,6 @@ h6.timestamp {
     line-height: 12px;
     text-align: center;
     color: #FFFFFF;
-
 }
 
 h4.title {
@@ -514,7 +440,6 @@ h4.title {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #FFFFFF;
-
 }
 
 article {
@@ -526,7 +451,6 @@ article {
     color: #FFFFFF;
     width: 768px;
     align-self: stretch;
-
 }
 
 nav.socialmedia {
