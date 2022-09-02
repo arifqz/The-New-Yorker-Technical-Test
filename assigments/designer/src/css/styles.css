@@ -254,20 +254,34 @@ li {
 
 .light1 {
     position: absolute;
-    transform: rotate(40deg);
+    animation: light1move 5s infinite;
+    animation-direction: alternate;
+    transform-origin: bottom;
     z-index: 1;
-    top: -550px;
-    left: 200px;
+    top: -1000px;
+    left: -800px;
 }
 
 .light2 {
     position: absolute;
-    transform: rotate(-30deg);
+
+    transform-origin: bottom;
+        animation: light2move 5s infinite;
+    animation-direction: alternate;
     z-index: 1;
-    top: -493px;
-    right: 300px;
+    top: -808px;
+    right: -612px;
 }
 
+@keyframes light1move {
+  0%   {transform: rotate(10deg);}
+  100% {transform: rotate(52deg);}
+}
+
+@keyframes light2move {
+  0%   {transform: rotate(-2deg);}
+  100% {transform: rotate(-43deg);}
+}
 .smallhed {
     line-height: 0px;
     font-size: x-large;
