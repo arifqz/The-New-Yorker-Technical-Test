@@ -46,6 +46,7 @@ body {
     width: 1280px;
     background: #000000;
     margin: 0px;
+    font-size: 16px;
 }
 
 .flex-container {
@@ -91,7 +92,7 @@ body {
     left: 0px;
     top: 0px;
     opacity: 0.9;
-    z-index: -10;
+    z-index: 0;
 }
 
 .openerDisplay {
@@ -255,10 +256,6 @@ li {
     z-index: 2;
 }
 
-.cloud4 .cloud5 {
-    display: none;
-}
-
 .stars {
     position: absolute;
     width: 1280px;
@@ -361,9 +358,9 @@ li {
 
 h5.rubric {
     font-family: Irvin-Heading;
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 400;
-    line-height: 12px;
+    line-height: .75rem;
     letter-spacing: 0px;
     text-align: center;
     color: #FFFFFF;
@@ -374,8 +371,8 @@ h1.hed {
     font-family: 'Irvin-Heading';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 3rem;
+    line-height: 3.625rem;
     text-align: center;
     letter-spacing: 1px;
     color: #FFFFFF;
@@ -387,8 +384,8 @@ h2.dek {
     font-family: 'AdobeCaslonPro-Italic';
     font-style: italic;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     text-align: center;
     color: #FFFFFF;
     width: 342px;
@@ -399,8 +396,8 @@ h3.byline {
     font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: .938rem;
+    line-height: .938rem;
     text-align: center;
     letter-spacing: 0.4px;
     color: #FFFFFF;
@@ -410,8 +407,8 @@ h6.timestamp {
     font-family: 'Graphik-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: .75rem;
+    line-height: .75rem;
     text-align: center;
     color: #FFFFFF;
 }
@@ -422,20 +419,20 @@ h4.title {
     font-family: 'Irvin-Heading';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: .875rem;
+    line-height: .875rem;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
-article {
+article.text {
     font-family: 'AdobeCaslonPro-Regular';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 39px;
+    font-size: 1.75rem;
+    line-height: 2.438rem;
     color: #FFFFFF;
     width: 768px;
     align-self: stretch;
@@ -511,8 +508,8 @@ ul {
         font-family: 'Irvin-Heading';
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
         text-align: center;
         letter-spacing: 1px;
         color: #FFFFFF;
@@ -525,8 +522,8 @@ ul {
         font-family: 'AdobeCaslonPro-Italic';
         font-style: italic;
         font-weight: 400;
-        font-size: 21px;
-        line-height: 24px;
+        font-size: 1.313rem;
+        line-height: 1.5rem;
         text-align: center;
         color: #EAE9E9;
         width: 227px;
@@ -545,8 +542,8 @@ ul {
         font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
         font-style: normal;
         font-weight: 600;
-        font-size: 14px;
-        line-height: 14px;
+        font-size: .875rem;
+        line-height: .875rem;
         text-align: center;
         letter-spacing: revert;
         color: #EAE9E9;
@@ -558,8 +555,8 @@ ul {
         font-family: 'Graphik-Medium';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: .75rem;
+        line-height: .75rem;
         text-align: center;
         color: #EAE9E9;
         width: 75px;
@@ -636,8 +633,8 @@ ul {
         font-family: 'AdobeCaslonPro-Regular';
         font-style: normal;
         font-weight: 400;
-        font-size: 21px;
-        line-height: 30px;
+        font-size: 1.313rem;
+        line-height: 1.875rem;
         color: #FFFFFF;
         width: 311px;
         height: 900px;
