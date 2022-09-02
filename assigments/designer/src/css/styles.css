@@ -487,7 +487,7 @@ ul {
         animation-direction: alternate;
     }
 
-    @ keyframes light1move {
+    @keyframes light1move {
         0% {
             transform: rotate(0deg);
         }
