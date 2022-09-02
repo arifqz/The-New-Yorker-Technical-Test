@@ -457,8 +457,6 @@ ul {
     }
 
     .light2 {
-        z-index: 1;
-        position: absolute;
         width: 286.1px;
         height: 1179.34px;
         right: -130px;
@@ -468,8 +466,6 @@ ul {
     }
 
     .light1 {
-        z-index: 1;
-        position: absolute;
         width: 286.1px;
         height: 1179.34px;
         left: -270px;
@@ -499,36 +495,23 @@ ul {
     }
 
     .hed_dek_byline_timestamp {
-        gap: 24px;
         width: 227px;
         height: 366px;
     }
 
     h1.hed {
-        font-family: 'Irvin-Heading';
-        font-style: normal;
-        font-weight: 400;
         font-size: 1.875rem;
         line-height: 2.25rem;
-        text-align: center;
-        letter-spacing: 1px;
-        color: #FFFFFF;
-        margin: 0px;
         width: 214px;
         height: 138px;
     }
 
     h2.dek {
-        font-family: 'AdobeCaslonPro-Italic';
-        font-style: italic;
-        font-weight: 400;
         font-size: 1.313rem;
         line-height: 1.5rem;
-        text-align: center;
         color: #EAE9E9;
         width: 227px;
         height: 72px;
-        margin: 0px;
     }
 
     .byline_timestamp {
@@ -539,12 +522,6 @@ ul {
     }
 
     h3.byline {
-        font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
-        font-style: normal;
-        font-weight: 600;
-        font-size: .875rem;
-        line-height: .875rem;
-        text-align: center;
         letter-spacing: revert;
         color: #EAE9E9;
         width: 101px;
@@ -552,12 +529,6 @@ ul {
     }
 
     h6.timestamp {
-        font-family: 'Graphik-Medium';
-        font-style: normal;
-        font-weight: 500;
-        font-size: .75rem;
-        line-height: .75rem;
-        text-align: center;
         color: #EAE9E9;
         width: 75px;
         height: 12px;
@@ -565,46 +536,23 @@ ul {
     }
 
     .opener-background {
-        position: absolute;
         width: 375px;
         height: 1198px;
-        left: 0px;
-        top: 0px;
-        opacity: 0.9;
-        z-index: -10;
     }
 
     .background {
-        position: absolute;
         width: 375px;
         height: 1061px;
-        left: 0px;
         top: -1px;
-        margin: 0px;
-    }
-
-    .clouds {
-        position: absolute;
-        width: 375px;
-        height: 862px;
-        left: 0px;
-        top: 60px;
     }
 
     .gradient {
-        position: absolute;
         left: 0.11px;
-        top: 0px;
-        background-image: url("../assets/images/background.jpg");
         width: 374.89px;
         height: 812px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .opener {
-        box-sizing: border-box;
         width: 375px;
         height: 738px;
         align-self: stretch;
@@ -615,8 +563,6 @@ ul {
         width: 375px;
         height: 100%;
         gap: revert;
-        padding: 0px;
-        z-index: 1;
         overflow: hidden;
     }
 
@@ -630,33 +576,23 @@ ul {
     }
 
     article.text {
-        font-family: 'AdobeCaslonPro-Regular';
-        font-style: normal;
-        font-weight: 400;
         font-size: 1.313rem;
         line-height: 1.875rem;
-        color: #FFFFFF;
         width: 311px;
         height: 900px;
-        align-self: stretch;
         margin-left: auto;
         margin-right: auto;
     }
 
     .openerDisplay {
-        position: absolute;
         width: 311px;
         height: 509px;
         left: calc(50% - 311px/2);
         top: 152px;
         padding: 40px 32px 27px;
-        gap: 32px;
-        border: 1.5px solid #FFFFFF;
-        box-sizing: border-box;
     }
 
     .clouds {
-        position: absolute;
         width: 375px;
         height: 862px;
         left: 0px;
@@ -664,8 +600,6 @@ ul {
     }
 
     .cloud1 {
-        z-index: 2;
-        position: absolute;
         width: 120px;
         height: 79px;
         left: calc(50% - 120px/2 + 135.5px);
@@ -673,21 +607,17 @@ ul {
     }
 
     .cloud2 {
-        position: absolute;
         width: 352.77px;
         height: 223px;
         left: calc(50% - 352.77px/2 - 47.11px);
         top: 0px;
-        z-index: 2;
     }
 
     .cloud3 {
-        position: absolute;
         width: 203px;
         height: 94px;
         left: calc(50% - 203px/2 + 82px);
         top: 272px;
-        z-index: 2;
     }
 
     .cloud4 {
@@ -711,7 +641,6 @@ ul {
     }
 
     .stars {
-        position: absolute;
         width: 375px;
         height: 963px;
         left: 0px;
@@ -750,29 +679,14 @@ ul {
     }
 
     .logo {
-        position: absolute;
         width: 120px;
         height: 27.3px;
         left: calc(50% - 120px/2 + 0.5px);
-        top: 12px;
-        margin: 0px;
-    }
-
-    .img-logo {
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-        color: #FFFFFF;
     }
 
     .spotlights {
-        position: absolute;
         width: 375px;
         height: 1004px;
-        left: 0px;
         top: 56px;
-        overflow: hidden;
     }
 }
