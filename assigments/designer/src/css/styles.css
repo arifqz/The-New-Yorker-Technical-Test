@@ -833,8 +833,8 @@ ul {
         left: -160px;
         top: -35px;
         display: block;
-        mask-image: url(../assets/images/maskstars.png);
-        -webkit-mask-image: url(../assets/images/maskstars.png);
+        mask-image: url(../assets/images/maskstars2.png);
+        -webkit-mask-image: url(../assets/images/maskstars2.png);
         animation: movemask 9s infinite;
         animation-direction: alternate;
 
@@ -847,8 +847,8 @@ ul {
         left: -280px;
         top: 0px;
         display: block;
-        mask-image: url(../assets/images/maskstars.png);
-        -webkit-mask-image: url(../assets/images/maskstars.png);
+        mask-image: url(../assets/images/maskstars2.png);
+        -webkit-mask-image: url(../assets/images/maskstars2.png);
         animation: movemask 9s infinite;
         animation-direction: alternate;
 
