@@ -182,6 +182,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inherit;
 }
 
 li {
@@ -212,14 +213,7 @@ li {
     z-index: 1;
 }
 
-.spotlights {
-    position: absolute;
-    width: 1280px;
-    height: 1538.06px;
-    left: 0px;
-    top: 47.51px;
-    overflow: hidden;
-}
+
 
 .introBody {
     width: 968px;
@@ -248,7 +242,14 @@ li {
 
     color: #FFFFFF;
 }
-
+.spotlights {
+    position: absolute;
+    width: 1280px;
+    height: 1538.06px;
+    left: 0px;
+    top: 47.51px;
+    overflow: hidden;
+}
 .light1 {
     position: absolute;
     transform: rotate(40deg);
@@ -264,6 +265,10 @@ li {
     top: -493px;
     right: 300px;
 }
+.smallhed {
+    line-height: 0px;
+    font-size: x-large;
+}
 
 .clouds {
     position: absolute;
@@ -271,10 +276,7 @@ li {
     height: 832.49px;
 }
 
-.smallhed {
-    line-height: 0px;
-    font-size: x-large;
-}
+
 }
 
 .cloud1 {
@@ -304,7 +306,9 @@ li {
     top: 754.01px;
     z-index: 2;
 }
-
+.cloud4, .cloud5, .cloud6{
+    display: none;
+}
 .stars {
     position: absolute;
     width: 1280px;
@@ -314,6 +318,9 @@ li {
     z-index: 1;
 }
 
+.allstars {
+    width: 100%;
+}
 .gradient {
     position: absolute;
     left: 0.36px;
@@ -371,7 +378,12 @@ li {
     margin: 0px;
 }
 
-h5 {
+.hed_dek_byline_timestamp {
+    width: 439.79px;
+height: 447px;
+gap: 24px;
+}
+h5.rubric {
     font-family: Irvin-Heading;
     font-size: 12px;
     font-weight: 400;
@@ -382,7 +394,7 @@ h5 {
     margin: 0px;
 }
 
-h1 {
+h1.hed {
     font-family: 'Irvin-Heading';
     font-style: normal;
     font-weight: 400;
@@ -395,7 +407,7 @@ h1 {
     width: 439.79px;
 }
 
-h2 {
+h2.dek {
     font-family: 'AdobeCaslonPro-Italic';
     font-style: italic;
     font-weight: 400;
@@ -407,7 +419,7 @@ h2 {
     margin: 0px;
 }
 
-h3 {
+h3.byline {
     font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
     font-style: normal;
     font-weight: 600;
@@ -419,7 +431,7 @@ h3 {
 
 }
 
-h6 {
+h6.timestamp {
     font-family: 'Graphik-Medium';
     font-style: normal;
     font-weight: 500;
@@ -430,7 +442,7 @@ h6 {
 
 }
 
-h4 {
+h4.title {
     width: 147px;
     height: 14px;
     font-family: 'Irvin-Heading';
@@ -456,7 +468,13 @@ article {
     align-self: stretch;
 
 }
+nav.socialmedia {
+    padding: 0px;
 
+width: 126px;
+height: 42px;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -487,14 +505,7 @@ body {
     top: -1px;
     margin: 0px;
 }
-.spotlights {
-    position: absolute;
-    width: 375px;
-    height: 1004px;
-    left: 0px;
-    top: 56px;
-    overflow: hidden;
-}
+
 .clouds {
     position: absolute;
     width: 375px;
@@ -512,7 +523,7 @@ body {
     height: 812px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 .opener {
     box-sizing: border-box;
@@ -551,6 +562,223 @@ article {
     align-self: stretch;
 
 }
+
+.openerDisplay {
+position: absolute;
+width: 311px;
+height: 509px;
+left: calc(50% - 311px/2);
+top: 152px;
+padding: 40px 32px 27px;
+gap: 32px;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+
+}
+
+.clouds {
+    position: absolute;
+    width: 375px;
+    height: 862px;
+    left: 0px;
+    top: 60px;
+}
+
+.cloud1 {
+    z-index: 2;
+position: absolute;
+width: 120px;
+height: 79px;
+left: calc(50% - 120px/2 + 135.5px);
+top: 52px;
+
+}
+
+.cloud2 {
+position: absolute;
+width: 352.77px;
+height: 223px;
+left: calc(50% - 352.77px/2 - 47.11px);
+top: 0px;
+    z-index: 2;
+}
+
+.cloud3 {
+    position: absolute;
+width: 203px;
+height: 94px;
+left: calc(50% - 203px/2 + 82px);
+top: 272px;
+    z-index: 2;
+}
+.cloud4{
+    position: absolute;
+width: 335px;
+height: 100px;
+left: calc(50% - 335px/2 - 101px);
+top: 388px;
+}
+
+.cloud5{
+position: absolute;
+width: 158px;
+height: 71px;
+left: calc(50% - 158px/2 + 92.5px);
+top: 567px;
+}
+
+.cloud6{
+    display: none;
+}
+
+.stars {
+    position: absolute;
+width: 375px;
+height: 963px;
+left: 0px;
+top: -1px;
+overflow: hidden;
+
+}
+
+.starsgold {
+    position: absolute;
+width: 799px;
+height: 958px;
+left: -160px;
+top: -35px;
+
+}
+.starswhite {
+    position: absolute;
+width: 795px;
+height: 953px;
+left: -280px;
+top: 0px;
+
+}
+
+.allstars {
+    display: none;
+}
+
+.logo {
+position: absolute;
+width: 120px;
+height: 27.3px;
+left: calc(50% - 120px/2 + 0.5px);
+top: 12px;
+    margin: 0px;
+}
+
+.img-logo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    color: #FFFFFF;
+}
+
+.spotlights {
+position: absolute;
+width: 375px;
+height: 1004px;
+left: 0px;
+top: 56px;
+ overflow: hidden;
+}
+.light1 {
+    z-index: 1;
+position: absolute;
+width: 286.1px;
+height: 1179.34px;
+    left: -61.829999999999984px;
+    top: -143.89999999999998px;
+    transform: rotate(35.16deg);
+}
+}
+
+.light2 {
+    z-index: 1;
+    position: absolute;
+width: 286.1px;
+height: 1179.34px;
+right: 30px;
+    top: -184px;
+    transform: rotate(-18.16deg);
+}
+
+.hed_dek_byline_timestamp{
+gap: 24px;
+
+width: 227px;
+height: 366px;
+}
+
+h1.hed {
+    font-family: 'Irvin-Heading';
+    font-style: normal;
+    font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 0px;
+    width: 214px;
+height: 138px;
+}
+
+h2.dek {
+    font-family: 'AdobeCaslonPro-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 21px;
+line-height: 24px;
+    text-align: center;
+    color: #EAE9E9;
+    width: 227px;
+height: 72px;
+    margin: 0px;
+}
+
+.byline_timestamp {
+padding: 4px 0px;
+gap: 8px;
+
+width: 101px;
+height: 42px;
+}
+
+h3.byline {
+    font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+    text-align: center;
+    letter-spacing: revert;
+    color: #EAE9E9;
+width: 101px;
+height: 14px;
+}
+
+h6.timestamp {
+    font-family: 'Graphik-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #EAE9E9;
+    width: 75px;
+height: 12px;
+
+}
+
+
 
 }
 
