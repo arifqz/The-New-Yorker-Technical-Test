@@ -266,7 +266,7 @@ li {
     position: absolute;
 
     transform-origin: bottom;
-        animation: light2move 5s infinite;
+    animation: light2move 5s infinite;
     animation-direction: alternate;
     z-index: 1;
     top: -808px;
@@ -274,14 +274,25 @@ li {
 }
 
 @keyframes light1move {
-  0%   {transform: rotate(10deg);}
-  100% {transform: rotate(52deg);}
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(52deg);
+    }
 }
 
 @keyframes light2move {
-  0%   {transform: rotate(-2deg);}
-  100% {transform: rotate(-43deg);}
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(-43deg);
+    }
 }
+
 .smallhed {
     line-height: 0px;
     font-size: x-large;
@@ -348,8 +359,15 @@ li {
 }
 
 @keyframes movemask {
-  0%   {-webkit-mask-position: top right; mask-position: top right;}
-  100% {-webkit-mask-position: bottom left; mask-position: bottom left;}
+    0% {
+        -webkit-mask-position: top right;
+        mask-position: top right;
+    }
+
+    100% {
+        -webkit-mask-position: bottom left;
+        mask-position: bottom left;
+    }
 }
 
 .starsgold {
@@ -537,10 +555,45 @@ ul {
         position: absolute;
         width: 286.1px;
         height: 1179.34px;
-        right: 30px;
-        top: -184px;
-        transform: rotate(-18.16deg);
+        right: -130px;
+        top: -370px;
+
+        animation: light2move 5s infinite;
+        animation-direction: alternate;
     }
+
+    .light1 {
+        z-index: 1;
+        position: absolute;
+        width: 286.1px;
+        height: 1179.34px;
+        left: -270px;
+        top: -521px;
+        animation: light1move 5s infinite;
+
+        animation-direction: alternate;
+    }
+
+    @keyframes light1move {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(55deg);
+        }
+    }
+
+    @keyframes light2move {
+        0% {
+            transform: rotate(10deg);
+        }
+
+        100% {
+            transform: rotate(-40.16deg);
+        }
+    }
+
 
     .hed_dek_byline_timestamp {
         gap: 24px;
@@ -579,7 +632,6 @@ ul {
     .byline_timestamp {
         padding: 4px 0px;
         gap: 8px;
-
         width: 101px;
         height: 42px;
     }
@@ -607,11 +659,7 @@ ul {
         color: #EAE9E9;
         width: 75px;
         height: 12px;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        padding-top: 50px;
-
+        white-space: nowrap;
     }
 
     .opener-background {
@@ -668,6 +716,7 @@ ul {
         gap: revert;
         padding: 0px;
         z-index: 1;
+        overflow: hidden;
     }
 
     .introBody {
@@ -689,6 +738,8 @@ ul {
         width: 311px;
         height: 900px;
         align-self: stretch;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -747,6 +798,8 @@ ul {
         height: 100px;
         left: calc(50% - 335px/2 - 101px);
         top: 388px;
+        display: block;
+        z-index: 2;
     }
 
     .cloud5 {
@@ -755,6 +808,8 @@ ul {
         height: 71px;
         left: calc(50% - 158px/2 + 92.5px);
         top: 567px;
+        display: block;
+        z-index: 2;
     }
 
     .cloud6 {
@@ -777,6 +832,11 @@ ul {
         height: 958px;
         left: -160px;
         top: -35px;
+        display: block;
+        mask-image: url(../assets/images/maskstars.png);
+        -webkit-mask-image: url(../assets/images/maskstars.png);
+        animation: movemask 9s infinite;
+        animation-direction: alternate;
 
     }
 
@@ -786,6 +846,11 @@ ul {
         height: 953px;
         left: -280px;
         top: 0px;
+        display: block;
+        mask-image: url(../assets/images/maskstars.png);
+        -webkit-mask-image: url(../assets/images/maskstars.png);
+        animation: movemask 9s infinite;
+        animation-direction: alternate;
 
     }
 
@@ -821,15 +886,6 @@ ul {
         overflow: hidden;
     }
 
-    .light1 {
-        z-index: 1;
-        position: absolute;
-        width: 286.1px;
-        height: 1179.34px;
-        left: -61.829999999999984px;
-        top: -143.89999999999998px;
-        transform: rotate(35.16deg);
-    }
 
 
 
