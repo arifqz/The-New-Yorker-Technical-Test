@@ -183,6 +183,26 @@ li {
     overflow: hidden;
 }
 
+.light1 {
+    position: absolute;
+    animation: light1move 5s infinite;
+    animation-direction: alternate;
+    transform-origin: bottom;
+    z-index: 1;
+    top: -1000px;
+    left: -800px;
+}
+
+.light2 {
+    position: absolute;
+    transform-origin: bottom;
+    animation: light2move 5s infinite;
+    animation-direction: alternate;
+    z-index: 1;
+    top: -808px;
+    right: -612px;
+}
+
 @keyframes light1move {
     0% {
         transform: rotate(10deg);
@@ -203,27 +223,6 @@ li {
     }
 }
 
-.light1 {
-    position: absolute;
-    animation: light1move 5s infinite;
-    animation-direction: alternate;
-    transform-origin: bottom;
-    z-index: 1;
-    top: -1000px;
-    left: -800px;
-}
-
-.light2 {
-    position: absolute;
-
-    transform-origin: bottom;
-    animation: light2move 5s infinite;
-    animation-direction: alternate;
-    z-index: 1;
-    top: -808px;
-    right: -612px;
-}
-
 .smallhed {
     line-height: 0px;
     font-size: x-large;
@@ -242,7 +241,6 @@ li {
     height: 280.13px;
     left: 747.1px;
     top: 206.9px;
-
 }
 
 .cloud2 {
@@ -263,8 +261,7 @@ li {
     z-index: 2;
 }
 
-.cloud4,
-.cloud5 {
+.cloud4 .cloud5 .cloud6 {
     display: none;
 }
 
@@ -290,6 +287,7 @@ li {
         -webkit-mask-position: top right;
         mask-position: top right;
     }
+
     100% {
         -webkit-mask-position: bottom left;
         mask-position: bottom left;
@@ -298,12 +296,10 @@ li {
 
 .starsgold {
     display: none;
-
 }
 
 .starswhite {
     display: none;
-
 }
 
 .gradient {
@@ -321,13 +317,13 @@ li {
 .byline_timestamp {
     padding: 12px 0px 8px;
     gap: 10px;
-
     width: 113px;
     height: 57px;
 }
 
 h3.byline {
     margin: 0px;
+    white-space: nowrap;
 }
 
 li {
@@ -453,10 +449,8 @@ article {
 
 nav.socialmedia {
     padding: 0px;
-
     width: 126px;
     height: 42px;
-
 }
 
 ul {
@@ -469,7 +463,6 @@ ul {
     body {
         gap: revert;
         width: 375px;
-
     }
 
     .light2 {
@@ -494,7 +487,7 @@ ul {
         animation-direction: alternate;
     }
 
-    @keyframes light1move {
+    @ keyframes light1move {
         0% {
             transform: rotate(0deg);
         }
@@ -669,7 +662,6 @@ ul {
         gap: 32px;
         border: 1.5px solid #FFFFFF;
         box-sizing: border-box;
-
     }
 
     .clouds {
@@ -727,6 +719,10 @@ ul {
         z-index: 2;
     }
 
+    .cloud6 {
+        display: none;
+    }
+
     .stars {
         position: absolute;
         width: 375px;
@@ -734,7 +730,6 @@ ul {
         left: 0px;
         top: -1px;
         overflow: hidden;
-
     }
 
     .starsgold {
@@ -748,7 +743,6 @@ ul {
         -webkit-mask-image: url(../assets/images/maskstars2.png);
         animation: movemask 9s infinite;
         animation-direction: alternate;
-
     }
 
     .starswhite {
@@ -762,7 +756,6 @@ ul {
         -webkit-mask-image: url(../assets/images/maskstars2.png);
         animation: movemask 9s infinite;
         animation-direction: alternate;
-
     }
 
     .allstars {
