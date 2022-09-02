@@ -594,7 +594,6 @@ ul {
         }
     }
 
-
     .hed_dek_byline_timestamp {
         gap: 24px;
 
@@ -707,7 +706,6 @@ ul {
         height: 738px;
         align-self: stretch;
         z-index: 1;
-
     }
 
     .openerIntro {
@@ -728,7 +726,7 @@ ul {
         gap: 32px;
     }
 
-    article {
+    article.text {
         font-family: 'AdobeCaslonPro-Regular';
         font-style: normal;
         font-weight: 400;
@@ -740,7 +738,6 @@ ul {
         align-self: stretch;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .openerDisplay {
@@ -884,8 +881,4 @@ ul {
         top: 56px;
         overflow: hidden;
     }
-
-
-
-
 }
