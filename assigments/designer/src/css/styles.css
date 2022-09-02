@@ -171,7 +171,6 @@ li {
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     color: #FFFFFF;
 }
 
@@ -182,6 +181,26 @@ li {
     left: 0px;
     top: 47.51px;
     overflow: hidden;
+}
+
+@keyframes light1move {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(52deg);
+    }
+}
+
+@keyframes light2move {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    100% {
+        transform: rotate(-43deg);
+    }
 }
 
 .light1 {
@@ -203,26 +222,6 @@ li {
     z-index: 1;
     top: -808px;
     right: -612px;
-}
-
-@keyframes light1move {
-    0% {
-        transform: rotate(10deg);
-    }
-
-    100% {
-        transform: rotate(52deg);
-    }
-}
-
-@keyframes light2move {
-    0% {
-        transform: rotate(-2deg);
-    }
-
-    100% {
-        transform: rotate(-43deg);
-    }
 }
 
 .smallhed {
@@ -265,8 +264,7 @@ li {
 }
 
 .cloud4,
-.cloud5,
-.cloud6 {
+.cloud5 {
     display: none;
 }
 
@@ -481,7 +479,6 @@ ul {
         height: 1179.34px;
         right: -130px;
         top: -370px;
-
         animation: light2move 5s infinite;
         animation-direction: alternate;
     }
@@ -494,7 +491,6 @@ ul {
         left: -270px;
         top: -521px;
         animation: light1move 5s infinite;
-
         animation-direction: alternate;
     }
 
@@ -520,7 +516,6 @@ ul {
 
     .hed_dek_byline_timestamp {
         gap: 24px;
-
         width: 227px;
         height: 366px;
     }
@@ -732,10 +727,6 @@ ul {
         z-index: 2;
     }
 
-    .cloud6 {
-        display: none;
-    }
-
     .stars {
         position: absolute;
         width: 375px;
@@ -793,7 +784,6 @@ ul {
         right: 0%;
         top: 0%;
         bottom: 0%;
-
         color: #FFFFFF;
     }
 
