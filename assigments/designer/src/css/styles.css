@@ -584,6 +584,10 @@ ul {
         color: #EAE9E9;
         width: 75px;
         height: 12px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        padding-top: 50px;
 
     }
 
