@@ -348,8 +348,8 @@ li {
 }
 
 @keyframes movemask {
-  0%   {mask-position: top right;}
-  100% {mask-position: bottom left;}
+  0%   {-webkit-mask-position: top right;}
+  100% {-webkit-mask-position: bottom left;}
 }
 
 .starsgold {
