@@ -84,12 +84,6 @@ body {
     flex-grow: 0;
 }
 
-.flex-item-5 {
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-}
-
 .opener-background {
     position: absolute;
     width: 1280.37px;
@@ -261,7 +255,7 @@ li {
     z-index: 2;
 }
 
-.cloud4 .cloud5 .cloud6 {
+.cloud4 .cloud5 {
     display: none;
 }
 
@@ -717,10 +711,6 @@ ul {
         top: 567px;
         display: block;
         z-index: 2;
-    }
-
-    .cloud6 {
-        display: none;
     }
 
     .stars {
