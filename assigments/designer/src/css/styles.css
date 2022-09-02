@@ -242,6 +242,7 @@ li {
 
     color: #FFFFFF;
 }
+
 .spotlights {
     position: absolute;
     width: 1280px;
@@ -250,12 +251,13 @@ li {
     top: 47.51px;
     overflow: hidden;
 }
+
 .light1 {
     position: absolute;
     transform: rotate(40deg);
     z-index: 1;
-    top: -590px;
-    left: 270px;
+    top: -550px;
+    left: 200px;
 }
 
 .light2 {
@@ -265,6 +267,7 @@ li {
     top: -493px;
     right: 300px;
 }
+
 .smallhed {
     line-height: 0px;
     font-size: x-large;
@@ -306,9 +309,13 @@ li {
     top: 754.01px;
     z-index: 2;
 }
-.cloud4, .cloud5, .cloud6{
+
+.cloud4,
+.cloud5,
+.cloud6 {
     display: none;
 }
+
 .stars {
     position: absolute;
     width: 1280px;
@@ -321,6 +328,17 @@ li {
 .allstars {
     width: 100%;
 }
+
+.starsgold {
+    display: none;
+
+}
+
+.starswhite {
+    display: none;
+
+}
+
 .gradient {
     position: absolute;
     left: 0.36px;
@@ -380,9 +398,10 @@ li {
 
 .hed_dek_byline_timestamp {
     width: 439.79px;
-height: 447px;
-gap: 24px;
+    height: 447px;
+    gap: 24px;
 }
+
 h5.rubric {
     font-family: Irvin-Heading;
     font-size: 12px;
@@ -468,13 +487,15 @@ article {
     align-self: stretch;
 
 }
+
 nav.socialmedia {
     padding: 0px;
 
-width: 126px;
-height: 42px;
+    width: 126px;
+    height: 42px;
 
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -482,253 +503,259 @@ ul {
 }
 
 @media only screen and (max-width: 375px) {
-body {
-    gap: revert;
-    width: 375px;
+    body {
+        gap: revert;
+        width: 375px;
 
-}
+    }
 
-.opener-background {
-    position: absolute;
-    width: 375px;
-    height: 1198px;
-    left: 0px;
-    top: 0px;
-    opacity: 0.9;
-    z-index: -10;
-}
-.background {
-    position: absolute;
-    width: 375px;
-    height: 1061px;
-    left: 0px;
-    top: -1px;
-    margin: 0px;
-}
+    .opener-background {
+        position: absolute;
+        width: 375px;
+        height: 1198px;
+        left: 0px;
+        top: 0px;
+        opacity: 0.9;
+        z-index: -10;
+    }
 
-.clouds {
-    position: absolute;
-    width: 375px;
-    height: 862px;
-    left: 0px;
-    top: 60px;
-}
+    .background {
+        position: absolute;
+        width: 375px;
+        height: 1061px;
+        left: 0px;
+        top: -1px;
+        margin: 0px;
+    }
 
-.gradient {
-    position: absolute;
-    left: 0.11px;
-    top: 0px;
-    background-image: url("../assets/images/background.jpg");
-    width: 374.89px;
-    height: 812px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-.opener {
-    box-sizing: border-box;
-    width: 375px;
-    height: 738px;
-    align-self: stretch;
-    z-index: 1;
+    .clouds {
+        position: absolute;
+        width: 375px;
+        height: 862px;
+        left: 0px;
+        top: 60px;
+    }
 
-}
-.openerIntro {
-    width: 375px;
-    height: 100%;
-    gap: revert;
-    padding: 0px;
-    z-index: 1;
-}
+    .gradient {
+        position: absolute;
+        left: 0.11px;
+        top: 0px;
+        background-image: url("../assets/images/background.jpg");
+        width: 374.89px;
+        height: 812px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-.introBody {
-    width: 375px;
-    height: 1146px;
-    box-sizing: revert;
-    border: none;
-    padding: 100px 32px;
-    gap: 32px;
-}
+    .opener {
+        box-sizing: border-box;
+        width: 375px;
+        height: 738px;
+        align-self: stretch;
+        z-index: 1;
 
-article {
-    font-family: 'AdobeCaslonPro-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 30px;
-    color: #FFFFFF;
-    width: 311px;
-    height: 900px;
-    align-self: stretch;
+    }
 
-}
+    .openerIntro {
+        width: 375px;
+        height: 100%;
+        gap: revert;
+        padding: 0px;
+        z-index: 1;
+    }
 
-.openerDisplay {
-position: absolute;
-width: 311px;
-height: 509px;
-left: calc(50% - 311px/2);
-top: 152px;
-padding: 40px 32px 27px;
-gap: 32px;
-    border: 1.5px solid #FFFFFF;
-    box-sizing: border-box;
+    .introBody {
+        width: 375px;
+        height: 1146px;
+        box-sizing: revert;
+        border: none;
+        padding: 100px 32px;
+        gap: 32px;
+    }
 
-}
+    article {
+        font-family: 'AdobeCaslonPro-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        color: #FFFFFF;
+        width: 311px;
+        height: 900px;
+        align-self: stretch;
 
-.clouds {
-    position: absolute;
-    width: 375px;
-    height: 862px;
-    left: 0px;
-    top: 60px;
-}
+    }
 
-.cloud1 {
-    z-index: 2;
-position: absolute;
-width: 120px;
-height: 79px;
-left: calc(50% - 120px/2 + 135.5px);
-top: 52px;
+    .openerDisplay {
+        position: absolute;
+        width: 311px;
+        height: 509px;
+        left: calc(50% - 311px/2);
+        top: 152px;
+        padding: 40px 32px 27px;
+        gap: 32px;
+        border: 1.5px solid #FFFFFF;
+        box-sizing: border-box;
 
-}
+    }
 
-.cloud2 {
-position: absolute;
-width: 352.77px;
-height: 223px;
-left: calc(50% - 352.77px/2 - 47.11px);
-top: 0px;
-    z-index: 2;
-}
+    .clouds {
+        position: absolute;
+        width: 375px;
+        height: 862px;
+        left: 0px;
+        top: 60px;
+    }
 
-.cloud3 {
-    position: absolute;
-width: 203px;
-height: 94px;
-left: calc(50% - 203px/2 + 82px);
-top: 272px;
-    z-index: 2;
-}
-.cloud4{
-    position: absolute;
-width: 335px;
-height: 100px;
-left: calc(50% - 335px/2 - 101px);
-top: 388px;
-}
+    .cloud1 {
+        z-index: 2;
+        position: absolute;
+        width: 120px;
+        height: 79px;
+        left: calc(50% - 120px/2 + 135.5px);
+        top: 52px;
 
-.cloud5{
-position: absolute;
-width: 158px;
-height: 71px;
-left: calc(50% - 158px/2 + 92.5px);
-top: 567px;
-}
+    }
 
-.cloud6{
-    display: none;
-}
+    .cloud2 {
+        position: absolute;
+        width: 352.77px;
+        height: 223px;
+        left: calc(50% - 352.77px/2 - 47.11px);
+        top: 0px;
+        z-index: 2;
+    }
 
-.stars {
-    position: absolute;
-width: 375px;
-height: 963px;
-left: 0px;
-top: -1px;
-overflow: hidden;
+    .cloud3 {
+        position: absolute;
+        width: 203px;
+        height: 94px;
+        left: calc(50% - 203px/2 + 82px);
+        top: 272px;
+        z-index: 2;
+    }
 
-}
+    .cloud4 {
+        position: absolute;
+        width: 335px;
+        height: 100px;
+        left: calc(50% - 335px/2 - 101px);
+        top: 388px;
+    }
 
-.starsgold {
-    position: absolute;
-width: 799px;
-height: 958px;
-left: -160px;
-top: -35px;
+    .cloud5 {
+        position: absolute;
+        width: 158px;
+        height: 71px;
+        left: calc(50% - 158px/2 + 92.5px);
+        top: 567px;
+    }
 
-}
-.starswhite {
-    position: absolute;
-width: 795px;
-height: 953px;
-left: -280px;
-top: 0px;
+    .cloud6 {
+        display: none;
+    }
 
-}
+    .stars {
+        position: absolute;
+        width: 375px;
+        height: 963px;
+        left: 0px;
+        top: -1px;
+        overflow: hidden;
 
-.allstars {
-    display: none;
-}
+    }
 
-.logo {
-position: absolute;
-width: 120px;
-height: 27.3px;
-left: calc(50% - 120px/2 + 0.5px);
-top: 12px;
-    margin: 0px;
-}
+    .starsgold {
+        position: absolute;
+        width: 799px;
+        height: 958px;
+        left: -160px;
+        top: -35px;
 
-.img-logo {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    }
 
-    color: #FFFFFF;
-}
+    .starswhite {
+        position: absolute;
+        width: 795px;
+        height: 953px;
+        left: -280px;
+        top: 0px;
 
-.spotlights {
-position: absolute;
-width: 375px;
-height: 1004px;
-left: 0px;
-top: 56px;
- overflow: hidden;
-}
-.light1 {
-    z-index: 1;
-position: absolute;
-width: 286.1px;
-height: 1179.34px;
-    left: -61.829999999999984px;
-    top: -143.89999999999998px;
-    transform: rotate(35.16deg);
-}
-}
+    }
+
+    .allstars {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        width: 120px;
+        height: 27.3px;
+        left: calc(50% - 120px/2 + 0.5px);
+        top: 12px;
+        margin: 0px;
+    }
+
+    .img-logo {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        color: #FFFFFF;
+    }
+
+    .spotlights {
+        position: absolute;
+        width: 375px;
+        height: 1004px;
+        left: 0px;
+        top: 56px;
+        overflow: hidden;
+    }
+
+    .light1 {
+        z-index: 1;
+        position: absolute;
+        width: 286.1px;
+        height: 1179.34px;
+        left: -61.829999999999984px;
+        top: -143.89999999999998px;
+        transform: rotate(35.16deg);
+    }
+
 
 .light2 {
     z-index: 1;
     position: absolute;
-width: 286.1px;
-height: 1179.34px;
-right: 30px;
+    width: 286.1px;
+    height: 1179.34px;
+    right: 30px;
     top: -184px;
     transform: rotate(-18.16deg);
 }
 
-.hed_dek_byline_timestamp{
-gap: 24px;
+.hed_dek_byline_timestamp {
+    gap: 24px;
 
-width: 227px;
-height: 366px;
+    width: 227px;
+    height: 366px;
 }
 
 h1.hed {
     font-family: 'Irvin-Heading';
     font-style: normal;
     font-weight: 400;
-font-size: 30px;
-line-height: 36px;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
     letter-spacing: 1px;
     color: #FFFFFF;
     margin: 0px;
     width: 214px;
-height: 138px;
+    height: 138px;
 }
 
 h2.dek {
@@ -736,33 +763,33 @@ h2.dek {
     font-style: italic;
     font-weight: 400;
     font-size: 21px;
-line-height: 24px;
+    line-height: 24px;
     text-align: center;
     color: #EAE9E9;
     width: 227px;
-height: 72px;
+    height: 72px;
     margin: 0px;
 }
 
 .byline_timestamp {
-padding: 4px 0px;
-gap: 8px;
+    padding: 4px 0px;
+    gap: 8px;
 
-width: 101px;
-height: 42px;
+    width: 101px;
+    height: 42px;
 }
 
 h3.byline {
     font-family: 'NeutrafaceNewYorkerWeb-SemiBold';
     font-style: normal;
     font-weight: 600;
-font-size: 14px;
-line-height: 14px;
+    font-size: 14px;
+    line-height: 14px;
     text-align: center;
     letter-spacing: revert;
     color: #EAE9E9;
-width: 101px;
-height: 14px;
+    width: 101px;
+    height: 14px;
 }
 
 h6.timestamp {
@@ -774,14 +801,10 @@ h6.timestamp {
     text-align: center;
     color: #EAE9E9;
     width: 75px;
-height: 12px;
+    height: 12px;
 
 }
 
 
 
 }
-
-
-
-
